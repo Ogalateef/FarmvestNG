@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    overflow: visible;
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    top: 0;
+    left: 0;
+    position: relative;
+    background-color: rgba(150, 191, 148, 0.2);
+}
+header  .logo img {
+    height: 6rem;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.menu{
+    font-size: 5rem;
+    color: #000;
+    z-index: 4;
+    cursor: pointer;
+    display: none;
+}
+header nav{
+    width: 60rem;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header nav ul li a{
+    font-size: 15px;
+    color: #000;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    text-decoration: underline 0.15em rgba(71, 197, 81, 0);
+    text-decoration-color: #4e9525;
+    transition: text-decoration-color 300ms;
+}
+.sign{
+    background-color: #4e9525;
+    padding: 10px 30px 10px 30px;
+    color: #fff;
+}
+.home{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-size: contain;
+    margin-top: 50px;
+}
+.home .content{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 5rem;
+    background-size: contain;
+}
+.home .content h1{
+    font-size: 2.5rem;
+    color: #4e9525;
+    margin-left: 200px;
+    margin-bottom: 40px;
+    margin-top: 50rem;
+    font-weight: 500;
+}
+.content .topInput .top1, .top2{
+    color: #4e9525;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 20px;
+	margin-top: -35px;
+    margin-bottom: 50px;
+    margin-right: -20px;
+    padding: 10px 50px 10px 50px;
+    font-weight: 500;
+    display: inline-block;
+    text-decoration: none;
+}
+.content .topInput .top2{
+    background: #4e9525;
+    color: #fff;
+}
+.home .content p{
+    font-size: 1.5rem;
+	margin-top: -25px;
+    margin-bottom: 15px;
+}
+.content .inputBx{
+    margin-bottom: 25px;
+}
+.content form{
+    width: 50rem;
+}
+
+.content form .inputBx .img1{
+    position: relative;
+    font-size: 10px;
+    cursor: pointer;
+}
+.content form .inputBx .img1 img{
+    position: absolute;
+    left: -490px;
+    top: 0;
+    height: 100%;
+    width: 18px;
+    display: flex;
+}
+
+.content form .inputBx .arrow{
+    position: relative;
+    font-size: 4px;
+    cursor: pointer;
+}
+.content form .inputBx .arrow img{
+    position: absolute;
+    left: -460px;
+    top: 0;
+    height: 100%;
+    display: flex;
+}
+.content form .inputBx .line{
+    position: relative;
+    font-size: 27px;
+}
+.content form .inputBx .line img{
+    position: absolute;
+    left: -440px;
+    top: 6px;
+    height: 100%;
+    display: flex;
+}
+input[type="number"]{
+    text-indent: 50px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.content form .inputBx span
+{
+    font-size: 12px;
+    font-weight: 400;
+}
+.content form .inputBx .ref::placeholder
+{
+    font-size: 11px;
+    font-weight: 500;
+}
+.content form .inputBx input
+{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 500;
+    border: 1px solid #bcd7ac;
+    font-size: 10px;
+    color: #000;
+}
+.country{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 12px;
+}
+.country select{
+    display: inline-block;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+    margin-right: 120px;
+    padding: 8px;
+    border:1px solid #bcd7ac;
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+.country h4{
+    font-size: 12px;
+    font-weight: 400;
+}
+.check{
+    
+    top: 0;
+    left: 0;
+    display: inline-block;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.check .inputBx{
+    margin-bottom: 15px;
+}
+input[type="checkbox"]{
+    appearance: none;
+    -webkit-appearance: none;
+    height: 10px;
+    width: 10px;
+    background-color: #fff;
+    cursor: pointer;
+    outline: 1px solid #4e9525;
+}
+label{
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 90px;
+}
+input[type="checkbox"]::after{
+    font-family: "Font Awesome 5 Free";
+    font-size: 10px;
+    font-weight: 900;
+    content: "\f00c";
+    color: #4e9525;
+    display: none;
+}
+input[type="checkbox"]:hover{
+    background-color: #fff;
+}
+input[type="checkbox"]:checked{
+    background-color: #fff;
+}
+input[type="checkbox"]:checked::after{
+    display: block;
+}
+.content form .inputBx .icon{
+    position: relative;
+}
+.content form .inputBx .icon i{
+    position: absolute;
+    left: -20px;
+    top: 5px;
+    font-size: 10px;
+    color: #000;
+    height: 100%;
+    display: flex;
+  
+}
+.content form .inputBx button
+{
+    background: #4e9525;
+    color: #fff;
+    outline: none;
+    border: none;
+	border-radius: 0;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px;
+}
+.content form .inputBx button:hover
+{
+    background: #55a725;
+}
+.content form .inputBx p
+{
+    color: #000;
+    font-size: 15px;
+	margin-left: 150px;
+    margin-top: 5rem;
+	padding-top: 4px;
+    font-weight: 400;
+}
+.content form .inputBx a
+{
+    color: #4e9525;
+    text-decoration: none;
+}
+
+.image{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    align-items: center;    
+}
+
+@media (max-width:500px){
+    .home
+        .content{
+            width:100%;
+            text-align: center;
+        }
+    .image{
+        display: none;
+    }
+}
+
+@media (max-width:1120px){
+    html{
+        font-size: 45%;
+    }
+    header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 3rem;
+        top: 0;
+        left: 0;
+        position: relative;
+        background-color: rgb(98 167 95 / 59%);
+    }
+    header nav {
+        width: 80rem;
+    }
+    .image{
+        display: none;
+    }
+    .content form .inputBx .img1 {
+        position: relative;
+        font-size: 10px;
+        cursor: pointer;
+        left: 140px;
+    }
+    .content form .inputBx .arrow {
+        position: relative;
+        font-size: 4px;
+        cursor: pointer;
+        left: 140px;
+    }
+    .content form .inputBx .line {
+        position: relative;
+        font-size: 27px;
+        left: 140px;
+    }
+    .content form .inputBx p {
+        color: #000;
+        font-size: 15px;
+        margin-left: 80px;
+        margin-top: 5rem;
+        padding-top: 4px;
+        font-weight: 400;
+    }
+    .content .topInput .top1, .top2 {
+        color: #4e9525;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        margin-left: 0px;
+        margin-top: -35px;
+        margin-bottom: 50px;
+        margin-right: -20px;
+        padding: 10px 50px 10px 50px;
+        font-weight: 500;
+        display: inline-block;
+    }
+    .home .content h1 {
+        font-size: 2.5rem;
+        color: #4e9525;
+        margin-left: 160px;
+        margin-bottom: 40px;
+        margin-top: 40rem;
+        font-weight: 500;
+    }
+    .consent{
+        display: flex;
+    }
+    .consent label{
+        margin: 0;
+        display: inline-block;
+        font-family: 'Poppins';
+        font-size: 12px;
+        font-weight: 400;
+        padding-left: 6px;
+        top: 0px;
+    }
+}
+@media (max-width:991px){
+    html{
+        font-size: 35%;
+    }
+    header .menu{
+        
+        display: block;
+    }
+    nav{
+        position: fixed;
+        top: 0;
+        right: -200%;
+        height: 100vh;
+        width: 100wh;
+        background-color: #fff;
+        z-index: 2;
+    }
+    ul{
+        flex-flow: column;
+        justify-content: center;
+        height: 100%;
+    }
+    li{
+        margin: 3rem 0;
+    }
+    nav ul li a{
+        color: #000;
+        font-size: 5rem;
+    }
+    .toggle{
+        right: 0%;
+    }
+    .content form .inputBx .img1 {
+        position: relative;
+        font-size: 10px;
+        cursor: pointer;
+        left: 220px;
+    }
+    .content form .inputBx .arrow {
+        position: relative;
+        font-size: 4px;
+        cursor: pointer;
+        left: 220px;
+    }
+    .content form .inputBx .line {
+        position: relative;
+        font-size: 27px;
+        left: 220px;
+    }
+    label {
+        font-family: 'Poppins';
+        font-size: 12px;
+        font-weight: 400;
+        cursor: pointer;
+        display: inline-block;
+        margin-right: 70px;
+    }
+    .home .content h1 {
+        font-size: 4rem;
+        color: #4e9525;
+        margin-left: 80px;
+        margin-bottom: 40px;
+        margin-top: 100rem;
+        font-weight: 500;
+    }
+    .image{
+        display: none;
+    }
+    .home .content {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        padding: 5rem;
+        background-size: contain;
+    }
+    .content .topInput .top1, .top2 {
+        color: #4e9525;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        margin-left: 0;
+        margin-top: -35px;
+        margin-bottom: 50px;
+        margin-right: -20px;
+        padding: 10px 50px 10px 50px;
+        font-weight: 500;
+        width: 100%;
+        display: inline-block;
+    }
+    .home .content p {
+        font-size: 3rem;
+        margin-top: -25px;
+        margin-bottom: 15px;
+    }
+    .country h4 {
+        font-size: 12px;
+        font-weight: 400;
+        display: inline-block;
+        margin-right: 15rem;
+        justify-content: space-between;
+    }
+    .country select {
+        padding: 10px;
+        margin: 0px 60px 10px 0px;
+        cursor: pointer;
+        border: 1px solid #bcd7ac;
+        display: inline-block;
+        font-size: 10px;
+        margin-right: 40px;
+    }
+    label {
+        font-family: 'Poppins';
+        font-size: 12px;
+        font-weight: 400;
+        cursor: pointer;
+        display: inline-block;
+        margin-right: 50px;
+    }
+    .content form .inputBx p {
+        color: #000;
+        font-size: 15px;
+        margin-top: 5rem;
+        padding-top: 4px;
+        font-weight: 400;
+        text-align: center;
+
+        display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    }
+}
