@@ -1,0 +1,435 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.page {
+  padding-left: 50px;
+}
+.top1 h3 {
+  text-align: center;
+  color: #4e9525;
+  font-size: 27.1849px;
+  font-weight: 480;
+  padding-top: 60px;
+}
+.top1 button {
+  margin-top: 42px;
+  margin-left: 325px;
+  background-color: #4e9525;
+  width: 270px;
+  height: 50.71px;
+  color: white;
+  box-shadow: 0px 4.8613px 14.5839px rgba(155, 203, 127, 0.38);
+  border: none;
+  font-size: 10.311px;
+  cursor: pointer;
+  transition: all 1s;
+  display: block;
+}
+.button:hover {
+  background: transparent;
+  color: #4e9525;
+  border: 1px black;
+  font-size: 12.311px;
+  font-weight: 500;
+}
+
+.top2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+  width: 700.04px;
+  height: 150.26px;
+  box-shadow: 0px 7.51455px 22.5437px rgba(159, 150, 150, 0.15);
+  margin-left: 325px;
+  margin-top: 40.72px;
+}
+.top2 h4 {
+  padding-left: 26px;
+  padding-top: 2rem;
+  color: #4e9525;
+  font-size: 18px;
+  font-weight: 500;
+  /* padding-top: 13.27px; */
+}
+.top2 table {
+  font-size: 11.5px;
+
+  margin: 2rem auto;
+  /* margin-bottom: 40px; */
+  /* justify-content: space-between; */
+}
+.top2 th {
+  justify-content: space-around;
+  padding: 0.5 rem;
+}
+.top2 td {
+  justify-content: space-around;
+  padding: 1rem;
+}
+.top3 {
+  margin-left: 935px;
+  margin-top: 5px;
+}
+.top3 a {
+  text-decoration: none;
+  color: #000;
+  font-size: 12px;
+  font-weight: 500;
+}
+.top4 {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 700.04px;
+  height: 120.5px;
+  box-shadow: 0px 7.51455px 22.5437px rgba(159, 150, 150, 0.15);
+  margin-left: 375px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20.72px;
+}
+.wall {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #4e9525;
+  padding-left: 26px;
+  font-weight: 500;
+}
+.p1 {
+  padding-bottom: 28px;
+}
+.p2 {
+  font-size: 19px;
+  font-weight: 500;
+}
+.fund {
+  padding-top: 62px;
+  justify-self: flex-end;
+}
+.fund button {
+  background-color: #4e9525;
+  width: 200px;
+  height: 38.71px;
+  color: white;
+  align-self: baseline;
+  margin-left: 300px;
+  border: none;
+  margin-right: 37px;
+  margin-bottom: 30px;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 1s;
+  display: block;
+}
+.dif {
+  display: flex;
+  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  background-color: #c5eaad8f;
+  width: 700px;
+  margin-left: 325px;
+  height: 62px;
+}
+.amount {
+  display: flex;
+  flex-direction: row;
+  border-right: 1px solid black;
+  align-items: flex-end;
+  padding-left: 20px;
+  padding-bottom: 10.27px;
+}
+.return {
+  display: flex;
+  justify-items: flex-end;
+  flex-direction: row;
+  align-items: flex-end;
+  align-content: flex-end;
+  padding-left: 20px;
+  padding-bottom: 10.27px;
+}
+.num {
+  margin-left: 12px;
+  color: #4e9525;
+  font-size: 18px;
+  font-weight: 500;
+}
+.text {
+  font-size: 12px;
+  color: #70726e;
+}
+
+@media screen and (max-width: 1024px) {
+  .page {
+    padding-left: 0px;
+  }
+  .top1 h3 {
+    margin-left: 350px;
+    text-align: unset;
+  }
+  .top1 button {
+    margin-top: 42px;
+    margin-left: 210px;
+  }
+  .top2 {
+    margin-left: 210px;
+  }
+  .top3 {
+    margin-left: 770px;
+    margin-top: 10px;
+  }
+  .top4 {
+    margin-left: 210px;
+  }
+  .dif {
+    margin-left: 210px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .top1 h3 {
+    font-weight: 480;
+    margin-left: 310px;
+    padding-top: 70px;
+    font-size: 23.5px;
+  }
+  .top1 button {
+    margin-left: 180px;
+    width: 210px;
+    height: 40.71px;
+    font-size: 9.311px;
+  }
+  .top2 {
+    width: 500.04px;
+    height: 120.26px;
+    margin-left: 180px;
+    margin-top: 25.72px;
+  }
+  .top2 h4 {
+    padding-top: 1rem;
+    font-size: 15px;
+    font-weight: 530;
+  }
+  .top2 table {
+    font-size: 9.5px;
+    margin: 1.2rem auto;
+  }
+  .top2 th {
+    justify-content: space-around;
+    padding: 0.3rem;
+  }
+  .top2 td {
+    justify-content: space-around;
+    padding: 0.5rem;
+  }
+  .top3 {
+    margin-left: 570px;
+    margin-top: 0px;
+  }
+  .top3 a {
+    font-size: 9.5px;
+    font-weight: 500;
+  }
+  .top4 {
+    width: 500px;
+    height: 100.5px;
+    margin-left: 180px;
+    margin-top: 12.72px;
+  }
+  .wall {
+    padding-left: 26px;
+    font-weight: 500;
+  }
+  .p1 {
+    font-size: 12.5px;
+    padding-bottom: 20px;
+    font-weight: 500;
+  }
+  .p2 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .fund button {
+    width: 180px;
+    height: 35.71px;
+    margin-left: 190px;
+    font-size: 10px;
+  }
+  .dif {
+    width: 500px;
+    margin-left: 180px;
+    height: 40px;
+  }
+  .amount {
+    padding-left: 10px;
+    padding-bottom: 8.27px;
+  }
+  .return {
+    padding-left: 10px;
+    padding-bottom: 8.27px;
+  }
+  .num {
+    margin-left: 7px;
+    font-size: 14.5px;
+    font-weight: 500;
+  }
+  .text {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .top1 h3 {
+    font-size: 18.1849px;
+    font-weight: 450;
+    padding-top: 60px;
+    margin-left: 115px;
+  }
+  .top1 button {
+    margin-top: 32px;
+    margin-left: 115px;
+    width: 210px;
+    height: 40.71px;
+    font-size: 9.311px;
+  }
+  .button:hover {
+    font-size: 11.311px;
+  }
+  .top2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    width: 250.04px;
+    height: 350.26px;
+    margin-left: 90px;
+  }
+  .top2 h4 {
+    padding-left: 55px;
+    padding-top: 1rem;
+    font-size: 15px;
+    font-weight: 530;
+  }
+  .top2 table {
+    display: flex;
+    flex-direction: row;
+    font-size: 10.5px;
+    margin: 0rem auto;
+  }
+  .top2 th {
+    display: flex;
+    flex-direction: column;
+    padding: 0.9rem;
+    padding-left: 20px;
+  }
+  .top2 td {
+    display: flex;
+    flex-direction: column;
+    padding: 0.9rem;
+  }
+  .top3 {
+    margin-left: 230px;
+  }
+  .top4 {
+    flex-direction: column;
+    width: 250.04px;
+    height: 250.5px;
+    margin-left: 90px;
+    margin-top: 15px;
+  }
+  .wall {
+    margin-top: 55px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #4e9525;
+    padding-left: 10px;
+    font-weight: 500;
+  }
+  .p1 {
+    font-size: 15px;
+    padding-bottom: 28px;
+    font-weight: 500;
+  }
+  .p2 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .fund {
+    padding-top: 1px;
+    justify-self: flex-end;
+  }
+  .fund button {
+    width: 190px;
+    height: 35.71px;
+    margin-left: 37px;
+    margin-bottom: 20px;
+    font-size: 10px;
+  }
+  .dif {
+    width: 250px;
+    margin-left: 90px;
+    height: 40px;
+  }
+  .amount {
+    display: flex;
+    justify-content: space-around;
+    border-right: 1px solid rgb(139, 133, 133);
+    padding-left: 5px;
+    padding-bottom: 5.27px;
+  }
+  .return {
+    padding-left: 3px;
+    padding-bottom: 5.27px;
+  }
+  .num {
+    margin-left: 0px;
+    font-size: 11.5px;
+    font-weight: 530;
+    padding-right: 5px;
+  }
+  .text {
+    font-size: 7.5px;
+    color: #70726e;
+  }
+}
+@media screen and (max-width: 400px) {
+  .top1 h3 {
+    font-size: 18px;
+    margin-left: 80px;
+  }
+  .top1 button {
+    margin-top: 32px;
+    margin-left: 70px;
+    width: 208px;
+    height: 40px;
+    font-size: 9px;
+  }
+  .top2 {
+    margin-left: 49px;
+    margin-top: 15.72px;
+  }
+  .top2 table {
+    display: flex;
+    flex-direction: row;
+    font-size: 10.5px;
+    margin: 0rem auto;
+  }
+  .top3 {
+    margin-left: 200px;
+  }
+  .top3 a {
+    font-size: 8.5px;
+  }
+  .top4 {
+    margin-left: 49px;
+  }
+  .dif {
+    margin-left: 49px;
+  }
+}
